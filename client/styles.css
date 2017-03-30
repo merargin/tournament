@@ -1,0 +1,72 @@
+/*
+    Edit me.
+*/
+body{
+    width: 100%;
+    height: 786px;
+    display: flex;
+    justify-content: center;
+}
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+input, button, span {
+    height: 33px;
+    margin-bottom: 5px;
+    font-size: 12pt;
+    text-align: center;
+}
+
+input, span {
+    width: 160px;
+    padding: 0 10px;
+}
+
+input, button {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 5rem;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    color: white;
+}
+
+button:hover {
+    background-color: #204d74;
+}
+
+button.button--enabled {
+    background-color: #286090;
+}
+button.button--disabled{
+    cursor: not-allowed;
+    background-color: #b6c1ca;
+}
+.tournament {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tournament__status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tournament__progress{
+    font-size: 48px;
+}
